@@ -59,114 +59,39 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <header class="header-global">
-        <nav id="navbar-main"
-            class="navbar navbar-main navbar-expand-lg headroom py-lg-3 px-lg-6 navbar-light navbar-theme-primary">
-            <div class="container">
-                <a class="navbar-brand @@logo_classes" href="../../index.html">
-                    <img class="navbar-brand-dark common" src="<?=base_url('assets/front/')?>assets/img/brand/datalogos-light.png" height="35"
-                        alt="Logo light">
-                    <img class="navbar-brand-light common" src="<?=base_url('assets/front/')?>assets/img/brand/datalogos-dark.png" height="35"
-                        alt="Logo dark">
-                </a>
-                <div class="navbar-collapse collapse" id="navbar_global">
-                    <div class="navbar-collapse-header">
-                        <div class="row">
-                            <div class="col-6 collapse-brand">
-                                <a href="../../index.html">
-                                    <!--<img src="<?=base_url('assets/front/')?>assets/img/brand/dark.svg" height="35" alt="Logo Impact">-->
-                                    <img src="<?=base_url('assets/front/')?>assets/img/brand/datalogos-dark.png" height="35" alt="Logo Impact">
-                                </a>
-                            </div>
-                            <div class="col-6 collapse-close">
-                                <a href="#navbar_global" role="button" class="fas fa-times" data-toggle="collapse"
-                                    data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false"
-                                    aria-label="Toggle navigation"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <ul class="navbar-nav navbar-nav-hover justify-content-center">
-                        <li class="nav-item">
-                            <a href="../../index.html" class="nav-link">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="../../index.html" class="nav-link">Acerca de</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="../../index.html" class="nav-link">Registro de asistencia</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="d-none d-lg-block @@cta_button_classes">
-                    <a href="https://www.creative-tim.com/product/impact-design-system-pro" target="_blank"
-                        class="btn btn-md btn-secondary animate-up-2"> Iniciar
-                        sesión</a>
-                </div>
-                <div class="d-flex d-lg-none align-items-center">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global"
-                        aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation"><span
-                            class="navbar-toggler-icon"></span></button>
-                </div>
-            </div>
-        </nav>
-    </header>
+    
     <main>
 
-        <div class="preloader bg-soft flex-column justify-content-center align-items-center">
-            <div class="loader-element">
-                <span class="loader-animated-dot"></span>
-                <img src="<?=base_url('assets/front/')?>assets/img/brand/dark-loader.svg" height="40" alt="Impact logo">
-            </div>
-        </div>
+       
 
         <!-- Hero -->
-        <section class="section-header pb-7 pb-lg-11 bg-soft">
+        <section class="section pb-7 pb-lg-8 bg-soft">
             <div class="container">
                 <div class="row justify-content-between align-items-center">
-                    <div class="col-12 col-md-6 order-2 order-lg-1">
+				<div class="col-12 col-md-6 mr-lg-auto">
                         <img src="<?=base_url('assets/front/')?>assets/img/illustrations/hero-illustration.svg" alt="">
                     </div>
-                    <div class="col-12 col-md-5 order-1 order-lg-2">
-                        <h1 class="display-2 mb-3">Tools to grow your traffic</h1>
-                        <p class="lead">Impact helps you learn why your competitors rank so high and what you need to do
-                            to outrank them.</p>
+                    <div class="col-12 col-md-5 order-1 order-md-2 mt-2">
+                        <h3 class="display-3 mb-3">Ingreso al sistema</h3>
                         <div class="mt-4">
                             <form action="#" class="d-flex flex-column mb-5 mb-lg-0">
-                                <input class="form-control" type="text" name="full-name" placeholder="Full name"
+                                <input class="form-control" type="text" name="username" placeholder="username"
                                     required>
-                                <input class="form-control my-3" type="email" name="email" placeholder="Your email"
+                                <input class="form-control my-3" type="password" name="password" placeholder="password"
                                     required>
-                                <button class="btn btn-primary" type="submit">Create your account</button>
+                                <button class="btn btn-primary" type="submit">Ingresar</button>
                                 <div class="form-group form-check mt-3">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label form-check-sign-white" for="exampleCheck1">I agree to
-                                        the <a href="#">Terms & Conditions</a></label>
+								<strong>Todavía no tiene cuenta? <a href="register" class="text-primary text-underline">Registrese aquí</strong></a>
                                 </div>
+								
                             </form>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="pattern bottom"></div>
+            
         </section>
 
-
-
-
-        <footer class="footer section pt-6 pt-md-8 pt-lg-10 pb-3 bg-primary text-white overflow-hidden">
-            <div class="pattern pattern-soft top"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col pb-4 mb-md-0">
-                        <div class="d-flex text-center justify-content-center align-items-center">
-                            <p class="font-weight-normal mb-0">© <a href="https://themesberg.com?ref=creativetim*"
-                                    target="_blank">Themesberg</a> & <a href="https://creative-tim.com">Creative Tim</a>
-                                <span class="current-year"></span>. All rights reserved.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
 
     </main>
 

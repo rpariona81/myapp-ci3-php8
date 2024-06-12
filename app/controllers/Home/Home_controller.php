@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class HomeController extends CI_Controller
+class Home_Controller extends CI_Controller
 {
 
 	/**
@@ -30,10 +30,11 @@ class HomeController extends CI_Controller
 		$this->session->set_userdata($newdata);*/
 		//$this->session->unset("userID");
 		//$this->session->set_userdata("username","Jhon Doe");
-		$this->load->view('welcome_message');
+		//$this->load->view('welcome_message');
 		/*$this->load->model('User_model');
 		$data['users'] = User_model::all();
 		print_r(json_encode($data));*/
+		$this->load->view('home/homepage');
 	}
 
 	public function hola()

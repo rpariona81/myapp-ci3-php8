@@ -293,7 +293,7 @@ $config['log_date_format'] = 'Y-m-d H:i:s';
 | application/views/<?=base_url('assets/dashboard/')?>assetsrs/ directory.  Use a full server path with trailing slash.
 |
 */
-$config['<?=base_url('assets/dashboard/')?>assetsr_views_path'] = '';
+$config['views_path'] = '';
 
 /*
 |--------------------------------------------------------------------------
