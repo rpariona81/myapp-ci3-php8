@@ -20,9 +20,9 @@ class Test extends CI_Controller
 		//$this->login();
 		//print_r($datos);
 
-		/*$data['contenido'] = 'welcome';
-		$this->load->view('homeTemplate', $data);*/
-		$data['versionDB'] = $this->db->version();
+		$data['content'] = 'layout/dashboard/content_test';
+		$this->load->view('layout/dashboard/main_view', $data);
+		/*$data['versionDB'] = $this->db->version();
 		print_r($data);
 		/*
 		$data['content'] = 'home';
