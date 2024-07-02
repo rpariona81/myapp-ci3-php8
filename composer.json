@@ -41,9 +41,9 @@
 	},
 	"autoload": {
 		"psr-4": {
-		  "App\\": "app",
-		  "Eloquent\\": "app/eloquent/",
-		  "Models\\": "app/models/"
+		  "Src\\": "src",
+		  "Eloquent\\": "src/eloquent/",
+		  "Models\\": "src/models/"
 		}
 	}
 }

@@ -30,6 +30,23 @@ class Test extends CI_Controller
 		*/
 	}
 
+	public function prueba()
+	{
+		//$this->load->view('test');
+		//$datos[0]=$this->session->userdata('user_guard');
+		//$this->login();
+		//print_r($datos);
+		$data['content'] = 'app/app_dashboard';
+		//$data['content'] = 'layout/dashboard/content_test';
+		$this->load->view('auth/test', $data);
+		/*$data['versionDB'] = $this->db->version();
+		print_r($data);
+		/*
+		$data['content'] = 'home';
+		$this->load->view('templates/guest', $data);
+		*/
+	}
+
 	/*public function viewLogin()
 	{
 		$this->load->view('auth/login');

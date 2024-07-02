@@ -58,7 +58,7 @@ $route['default_controller'] = 'Test';
 $route['translate_uri_dashes'] = TRUE;
 
 //$route['home'] = 'homecontroller/index';
-$route['home'] = 'Home/Home_controller/Home';
+/*$route['home'] = 'Home/Home_controller/Home';
 
 $route['registroatr'] = 'homecontroller/registroATR';
 
@@ -81,3 +81,9 @@ $route['login'] = 'Auth/Login_controller';
 $route['register'] = 'Auth/Register_controller';
 
 $route['mydashboard'] = 'App/Mydashboard_controller';
+
+*/
+
+$route['app'] = 'App/App_controller';
+
+$route['test'] = 'Test/prueba';

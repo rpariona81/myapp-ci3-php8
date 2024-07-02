@@ -11,18 +11,18 @@
 							<div class="mb-3">
 								<div class="input-group mb-1">
 
-									<?= form_dropdown('role_select', '111111111111111111111111111111111111111111111', '', 'class="form-control" id="role_select"'); ?>
+									<?= form_dropdown('role_select', '111111111111111111111111111111111111111111111', '', 'class="form-control col-3" id="role_select"'); ?>
 									&nbsp;
-									<?= form_dropdown('status_select', '2222222222222222222222222222222222222', '', 'class="form-control" id="status_select"'); ?>
+									<?= form_dropdown('status_select', '2222222222222222222222222222222222222', '', 'class="form-control col-3" id="status_select"'); ?>
 									&nbsp;
-									<button class="btn btn-primary pull-right font-weight-medium mb-0" type="submit">
+									<button class="btn btn-primary pull-right font-weight-medium mb-0 col-2" type="submit">
 										<!--<i class="ti-search"></i>-->
 										<i class="fa fa-search"></i>&nbsp;Filtrar
 										<!--<i class="fa fa-filter"></i>-->
 									</button>
 
 									&nbsp;
-									<a class="btn btn-danger" href="<?= base_url('/admin/users') ?>">Limpiar filtro</a>
+									<a class="btn btn-danger col-2" href="<?= base_url('/admin/users') ?>">Limpiar filtro</a>
 
 									&nbsp;
 									<a class="btn btn-blue" data-toggle="modal" data-target="#addContact" data-placement="bottom" title="Crear nuevo registro" href="<?= base_url('/admin/users/newuser') ?>">Nuevo usuario&nbsp;&nbsp;<i class="fa fa-plus"></i></a>

@@ -32,7 +32,8 @@ class Login_Controller extends CI_Controller
 	{
 		//if($this->session->userdata('user_guard') == '' || $this->session->userdata('user_guard') == null) {
 			// session isn't started
-			$this->load->view('auth/login_view');
+			//$this->load->view('auth/login_view');
+			$this->load->view('auth/auth_view');
 		//}else{
 		//	redirect(base_url() . $this->session->userdata('user_guard') . '/index');
 		//}
